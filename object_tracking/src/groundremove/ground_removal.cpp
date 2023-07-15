@@ -21,8 +21,8 @@ using namespace pcl;
 //int numChannel = 80;
 //int numBin = 120;
 //const int numMedianKernel = 1;
-float rMin = 3.4;  // 见论文图
-float rMax = 120;
+float rMin = 3.4;  // 见论文图,最接近车辆的半径。
+float rMax = 120;  //最小半径是不能再看到自我车辆反射的半径，而最大半径由传感器的有效范围决定
 //const float tHmin = -2.15;
  float tHmin = -2.0;  // 高度
 //float tHmin = -1.9;
